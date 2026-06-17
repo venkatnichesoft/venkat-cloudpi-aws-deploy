@@ -1,0 +1,16 @@
+# Secrets — never commit these
+cloudpi-secrets.json
+.env
+docker-pat.txt
+
+# Deployment runtime state
+.deploy_state
+
+# SSH keys
+*.pem
+
+# Backup files
+*.bak
+
+# macOS
+.DS_Store

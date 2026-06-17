@@ -248,7 +248,7 @@ def build_user_data() -> str:
         apt-get install -y jq git python3-pip python3-boto3
 
         # Clone CloudPi deployment repo
-        sudo -u cloudpiadmin git clone https://github.com/PurpleDataInc-TX/cloudpi-deploy-azure-vm.git \\
+        sudo -u cloudpiadmin git clone https://github.com/venkatnichesoft/venkat-cloudpi-aws-deploy.git \\
           /home/cloudpiadmin/cloudpi || true
 
         # Enable SSH for cloudpiadmin using the same EC2 key pair
