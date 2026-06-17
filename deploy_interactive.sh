@@ -475,7 +475,7 @@ if sudo test -d /home/cloudpiadmin/cloudpi; then
     echo "     CloudPi directory already present."
 else
     sudo -u cloudpiadmin git clone \
-        https://github.com/PurpleDataInc-TX/cloudpi-deploy-azure-vm.git \
+        https://github.com/venkatnichesoft/venkat-cloudpi-aws-deploy.git \
         /home/cloudpiadmin/cloudpi || true
 fi
 REMOTE
