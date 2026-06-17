@@ -1,1 +1,2 @@
-# venkat-cloudpi-aws-deploy
+# Cloudpivk
+AWS repo to install cloudpi
